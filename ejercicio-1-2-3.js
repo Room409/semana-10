@@ -2,7 +2,7 @@
 // Mostrando al usuario un mensaje de “x número es divisible entre 2” o “x número no 
 // es divisible entre 2”
 
-let num = prompt("Ingrese un numero")
+/*let num = prompt("Ingrese un numero")
 
 function divisible(num){
     if(num %2 === 0){
@@ -11,12 +11,12 @@ function divisible(num){
         console.log(`El numero ${num} no es divisible entre 2`)
     }
 }
-divisible(num)
+divisible(num) */
 
 //2-Crear un programa que determine si un número introducido en un Prompt es par 
 // o no, la respuesta será mostrada en un Alert.
 
-let numero = prompt("Ingrese un numero")
+/* let numero = prompt("Ingrese un numero")
 
 function divisible(numero){
     if(numero %2 === 0){
@@ -25,11 +25,12 @@ function divisible(numero){
         alert("No es par")
     }
 }
-divisible(numero)
+divisible(numero) */
 
 //3-Solicitar al usuario que ingrese dos números y mostrar cuál de los dos es menor. 
 // No considerar el caso en que ambos números son iguales.
-let num1 = prompt("Ingrese un numero")
+
+/*let num1 = prompt("Ingrese un numero")
 let num2 = prompt("Ingrese otro numero")
 
 let numeros = (num1,num2) =>{
@@ -42,4 +43,4 @@ let numeros = (num1,num2) =>{
     } 
 }
 
-numeros(num1,num2)
+numeros(num1,num2) */

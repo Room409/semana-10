@@ -1,7 +1,7 @@
 //4-Solicitar al usuario que ingrese tres números y mostrar cuál de los tres es el número 
 // mayor. Considerar el caso en que 2 números sean iguales.
 
-let numero1 = prompt('Ingrese un numero')
+/* let numero1 = prompt('Ingrese un numero')
 let numero2 = prompt('Ingrese otro numero')
 let numero3 = prompt('Ingrese el ultimo numero')
 
@@ -17,14 +17,14 @@ function findMinMax(numeros){
     }
 
 }
-findMinMax(numeros)
+findMinMax(numeros); */
 
 
 //5-Requerir al usuario que ingrese un día de la semana e imprimir un mensaje si es 
 // lunes, otro mensaje diferente si es viernes, otro mensaje diferente si es sábado o 
 // domingo. Si el día ingresado no es ninguno de esos, imprimir otro mensaje
 
-let diaSemana = prompt("Ingrese un dia de la semana")
+/* let diaSemana = prompt("Ingrese un dia de la semana")
 
 function semana(diaSemana) {
     if (diaSemana.toLowerCase() === "lunes") {
@@ -52,5 +52,5 @@ for(let i = 1; i <= num; i++){
    if(i %5 === 0){
        console.log(i)
     }
-}
+} */
 

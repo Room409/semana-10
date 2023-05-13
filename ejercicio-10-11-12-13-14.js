@@ -48,16 +48,16 @@ while (calificacion < 1 || calificacion > 10) {
   }
   */
 
-//Escribe un programa que responda a un usuario que quiere comprar un helado en 
-//una conocida marca de comida rápida, cuánto le costará en función del topping 
-//que elija. 
-//• El helado sin topping cuesta 50 MXN. 
-//• El topping de oreo cuesta 10 MXN. 
-//• El topping de KitKat cuesta 15 MXN. 
-//• El topping de brownie cuesta 20 MXN. 
-//En caso de no disponer del topping solicitado por el usuario, el programa le 
-//indicará “no tenemos este topping, lo sentimos.” y a continuación le informará el 
-//precio del helado sin ningún topping.
+//12-Escribe un programa que responda a un usuario que quiere comprar un helado en 
+// una conocida marca de comida rápida, cuánto le costará en función del topping 
+// que elija. 
+// • El helado sin topping cuesta 50 MXN. 
+// • El topping de oreo cuesta 10 MXN. 
+// • El topping de KitKat cuesta 15 MXN. 
+// • El topping de brownie cuesta 20 MXN. 
+// En caso de no disponer del topping solicitado por el usuario, el programa le 
+// indicará “no tenemos este topping, lo sentimos.” y a continuación le informará el 
+// precio del helado sin ningún topping.
 
 /*let costoHelado = 50;
 
@@ -162,6 +162,7 @@ switch (curso.toLowerCase()) {
 //Considere qué: total a pagar = (precio kilometro x kms recorridos) + extra por litros 
 //consumidos
 
+/*
 let vehiculo = prompt("Ingrese el tipo de vehículo (coche, moto, autobús)");
 let precioKilometro = 0;
 let litrosConsumidos = parseInt(prompt("Ingrese la cantidad de litros consumidos"));
@@ -193,4 +194,4 @@ if (precioKilometro > 0) {
   }
 
   alert(`El total a pagar es de ${costoTotal} MXN.`);
-} 
+}; */
