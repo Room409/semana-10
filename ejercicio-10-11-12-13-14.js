@@ -161,37 +161,35 @@ switch (curso.toLowerCase()) {
 //mayor la cantidad de litros consumidos se ha de añadir 10 al total. 
 //Considere qué: total a pagar = (precio kilometro x kms recorridos) + extra por litros 
 //consumidos
-
 /*
-let vehiculo = prompt("Ingrese el tipo de vehículo (coche, moto, autobús)");
-let precioKilometro = 0;
-let litrosConsumidos = parseInt(prompt("Ingrese la cantidad de litros consumidos"));
-let distanciaRecorrida = parseFloat(prompt("Ingrese la distancia recorrida en kilómetros"));
-let costoTotal = 0;
+let vehiculo = prompt("ingrese su vehiculo: coche, moto, autobus.");
+let precioKm = 0;
+let total = 0;
+
+while(vehiculo.toLowerCase() !== "coche" && vehiculo.toLowerCase() !== "moto" && vehiculo.toLowerCase() !== "autobus"){
+    alert("Error: Vehiculo desconocido. Ingrese: coche, moto o autobus")
+    vehiculo = prompt("ingrese su vehiculo: coche, moto, autobus.");
+}
 
 switch (vehiculo.toLowerCase()) {
-  case "coche":
-    precioKilometro = 0.20;
-    break;
-  case "moto":
-    precioKilometro = 0.10;
-    break;
-  case "autobús":
-    precioKilometro = 0.5;
-    break;
-  default:
-    alert("Tipo de vehículo inválido");
+    case "coche":
+        precioKm = 0.20
+        break;
+    case "moto":
+        precioKm = 0.10
+        break;
+    case "autobus":
+        precioKm = 0.5
     break;
 }
 
-if (precioKilometro > 0) {
-  costoTotal = (precioKilometro * distanciaRecorrida);
+let kmRecorridos = prompt("Ingres los kl recorridos");
+let ltConsumidos = prompt("Ingrese los litros consumidos");
 
-  if (litrosConsumidos >= 0 && litrosConsumidos <= 100) {
-    costoTotal += 5;
-  } else {
-    costoTotal += 10;
-  }
-
-  alert(`El total a pagar es de ${costoTotal} MXN.`);
-}; */
+if(ltConsumidos >= 0 && ltConsumidos <= 100){
+    total = precioKm * kmRecorridos + 5
+    alert (`Su total a pagar es de ${total.toFixed(2)}$`)
+}else if(ltConsumidos > 100){
+    total = precioKm * kmRecorridos + 10
+    alert (`Su total a pagar es de ${total.toFixed(2)}$`)
+} */
